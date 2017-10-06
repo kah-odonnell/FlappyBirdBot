@@ -1,4 +1,4 @@
-from FlapPyBird.flappy import GameClient
+from FlapPyBirdStepper.flappy import GameClient
 import Bot.bot as bot
 
 def main():
