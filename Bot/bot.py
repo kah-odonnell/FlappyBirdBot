@@ -8,6 +8,7 @@ def play(game):
     crashInfo = game.stepGame()
     while (crashInfo['didCrash'] is False):
         crashInfo = game.stepGame()
+        pressUp()
     game.showGameOverScreen(crashInfo)
 
 
